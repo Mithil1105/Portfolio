@@ -63,8 +63,25 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title
+          style={{
+            fontSize: "1.4em",
+            fontWeight: "600",
+            color: "#c084f5",
+            marginBottom: "15px",
+            fontFamily: "Ubuntu"
+          }}
+        >
+          {props.title}
+        </Card.Title>
+        <Card.Text
+          style={{
+            textAlign: "justify",
+            color: "#ffffff",
+            fontSize: "1.05em",
+            marginBottom: "10px"
+          }}
+        >
           {props.description}
         </Card.Text>
         {props.googleDriveLink && (

@@ -8,46 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mithil Mistry </span>
-            from <span className="purple"> Ahmedabad, Gujarat, India.</span>
-            <br />
-            I am pursuing B.Tech in Computer Science and Engineering from
-            Charotar University of Science and Technology (CHARUSAT).
-            <br />
-            <ul>
-              <li>
-                Gained hands-on experience in application development as an Intern at Hidden Brains.
-              </li>
-              <li>
-                Actively serve as Joint President and Treasurer of CHARUSAT's Economic Club "Arthyantra" and Treasurer of The Rotaract Club of CHARUSAT.
-              </li>
-              <li>
-                Volunteered as an event organizer at a state-level tennis tournament, fostering young talent.
-              </li>
-              <li>
-                Passionate about sports (state-level Lawn Tennis quarter-finalist) and music (distinction in nine Classical Music exams).
-              </li>
-            </ul>
+            Hi Everyone, I am <span className="purple">Mithil Mistry</span>, a third-year B.Tech student in Computer Science and Engineering at{" "}
+            <span className="purple">Charotar University of Science and Technology (CHARUSAT)</span>, from{" "}
+            <span className="purple">Ahmedabad, Gujarat, India</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            With a strong passion for machine learning, artificial intelligence, and emerging technologies,
+            I have actively engaged in research, internships, and leadership roles that align with my interests.
+            <br />
+            <br />
+            My technical expertise spans across Python, C++, Java, SQL, and frameworks like TensorFlow,
+            PyTorch, and Scikit-learn. Through internships and research work, I've contributed to various
+            domains including anomaly detection, healthcare analytics, and IoT-based solutions.
+            <br />
+            <br />
+            Beyond technology, I am:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> A leader - serving as Founder & Joint President of CHARUSAT's Economics Club "Arthyantra"
             </li>
             <li className="about-activity">
-              <ImPointRight /> Innovation new stuff
+              <ImPointRight /> An athlete - achieved quarter-finals in state-level Lawn Tennis tournaments
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> A musician - earned distinction in nine Classical Music exams and proficient in multiple instruments
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "The best way to predict the future is to create it, one algorithm and innovation at a time."{" "}
+            "Striving to innovate at the intersection of technology and human experience."{" "}
           </p>
-          <footer className="blockquote-footer">By Mithil Mistry, Inspired by Alan Kay</footer>
+          <footer className="blockquote-footer">Mithil</footer>
         </blockquote>
       </Card.Body>
     </Card>
