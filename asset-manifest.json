@@ -1,10 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.d36a171d.js",
-    "static/js/415.fc063c41.chunk.js": "/Portfolio/static/js/415.fc063c41.chunk.js",
-    "static/js/787.f6e65957.chunk.js": "/Portfolio/static/js/787.f6e65957.chunk.js",
-    "static/media/draft 2.pdf": "/Portfolio/static/media/draft 2.39d1f728bde75824ffc5.pdf",
+    "main.js": "/Portfolio/static/js/main.6d894f0e.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/automating python certificate.pdf": "/Portfolio/static/media/automating python certificate.10fbb364044b2dd95641.pdf",
+    "static/media/Red hat OS certificate.pdf": "/Portfolio/static/media/Red hat OS certificate.7ca25974f27aa4ecc1ae.pdf",
+    "static/media/Intro to generative AI.pdf": "/Portfolio/static/media/Intro to generative AI.14c0b1e97843b3b92aea.pdf",
+    "static/media/AWS Certificate.pdf": "/Portfolio/static/media/AWS Certificate.f37071a8160a0db2eed3.pdf",
+    "static/media/teachnook.pdf": "/Portfolio/static/media/teachnook.a4a108fe340568b64ce7.pdf",
+    "static/media/Resume 3.pdf": "/Portfolio/static/media/Resume 3.05512ec3f22e4b7ac37f.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -12,12 +17,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.d36a171d.js.map": "/Portfolio/static/js/main.d36a171d.js.map",
-    "415.fc063c41.chunk.js.map": "/Portfolio/static/js/415.fc063c41.chunk.js.map",
-    "787.f6e65957.chunk.js.map": "/Portfolio/static/js/787.f6e65957.chunk.js.map"
+    "main.6d894f0e.js.map": "/Portfolio/static/js/main.6d894f0e.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e558664.css",
-    "static/js/main.d36a171d.js"
+    "static/js/main.6d894f0e.js"
   ]
 }
