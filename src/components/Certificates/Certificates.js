@@ -11,7 +11,7 @@ import pythonCert from "../../Assets/Certificates/automating python certificate.
 import awsCert from "../../Assets/Certificates/AWS Certificate.pdf";
 import aiCert from "../../Assets/Certificates/Intro to generative AI.pdf";
 import redhatCert from "../../Assets/Certificates/Red hat OS certificate.pdf";
-import teachnookCert from "../../Assets/Certificates/Teachnook COURSE Completion Certificate _ Mithil Mistry.pdf";
+import teachnookCert from "../../Assets/Certificates/teachnook.pdf";
 
 // Configure PDF.js worker
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;

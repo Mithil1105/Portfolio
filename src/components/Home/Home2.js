@@ -5,11 +5,13 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
+  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiOrcid } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
+import { AiOutlineGoogle } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -50,19 +52,39 @@ function Home2() {
                   href="https://github.com/Mithil1105"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mithil-mistry-394a38250/"
+                  href="https://twitter.com/Mithil1105"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/mithil-mistry-1105/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://scholar.google.com/citations?user=ksO9HzMAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineGoogle />
                 </a>
               </li>
               <li className="social-icons">

@@ -1,9 +1,10 @@
-
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineGoogle,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiOrcid } from "react-icons/si";
@@ -11,13 +12,18 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 
 function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row className="align-items-center">
         <Col md="6" className="footer-copywright d-flex justify-content-center justify-content-md-start">
           <h3 style={{ marginBottom: 0 }}>Designed and Developed by Mithil Mistry</h3>
         </Col>
-        <Col md="6" className="footer-body d-flex justify-content-center justify-content-md-end">
+        <Col md="6" className="footer-copywright d-flex justify-content-center justify-content-md-end">
+          <h3>Copyright © {year} MM</h3>
+        </Col>
+        <Col md="6" className="footer-body d-flex justify-content-center justify-content-md-start">
           <ul className="footer-icons" style={{ fontSize: "1.5em", marginBottom: 0 }}>
             <li className="social-icons">
               <a
@@ -77,6 +83,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <MdEmail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://scholar.google.com/citations?user=ksO9HzMAAAAJ&hl=en"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineGoogle />
               </a>
             </li>
           </ul>

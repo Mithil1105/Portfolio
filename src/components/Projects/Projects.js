@@ -56,6 +56,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              title="Secret Language of Birds - Interactive Exhibition"
+              description="Developed a Raspberry Pi-powered interactive bird call exhibit featuring 10 species, currently showcased at Thol and Nal Sarovar Bird Sanctuaries in Gujarat. Implemented GPIO-controlled LED illumination and audio playback system using Python, gpiozero, and VLC. The installation educates visitors about local and migratory birds through high-quality photographs, synchronized lighting, and authentic bird call recordings."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               title="Smart Home Automation System"
               description="Successfully implemented a comprehensive home automation system in my current residence. Integrated remote-controlled switches, motion-activated lighting, and security sensors throughout the house. System features seamless operation via mobile app, remote controls, and physical switches, with real-time security notifications. All components work flawlessly in daily use, significantly enhancing home convenience and security."
             />

@@ -50,9 +50,17 @@ function Research() {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            title="Plant Diseases Classification with Spectral Signature Taxonomy and Analysis Software"
-                            description="Published in Springer's Lecture Notes in Networks and Systems"
-                            googleDriveLink="https://drive.google.com/link-to-plant-diseases-paper"
+                            title="Plant diseases classification with Spectral Signature Taxonomy & Analysis Software (SSTAS)"
+                            description="This research introduces a spectroscopy-based classification technique for detecting non-visible plant diseases. Utilizing spectral signatures (400-1000 nm) collected over 15 months at Anand Agriculture University and Charotar University Space Research Centre, the SSTAS Software with Deep-Spectro model demonstrated superior accuracy in mango disease detection, overcoming limitations of traditional visual-based methods."
+                            googleDriveLink="https://authors.elsevier.com/sd/article/S2665963825000041"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            title="Symptom-based early detection and classification of plant diseases using AI-driven CNN+KNN Fusion Software (ACKFS)"
+                            description="This paper introduces ACKFS, integrating CNN and KNN for enhanced plant disease classification. Following a four-phase process, the system achieved remarkable accuracy improvements: 94.56% and 87.52% on two datasets. The research demonstrates the effectiveness of CNN-KNN fusion for real-time disease detection on smart devices, advancing precision agriculture."
+                            googleDriveLink="https://doi.org/10.1016/j.simpa.2025.100755"
                         />
                     </Col>
                 </Row>
@@ -65,7 +73,7 @@ function Research() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             title="Lime Diseases Classification Using ML and Spectrometry"
-                            description="99.98% accuracy achieved."
+                            description="This study explores the classification of lime diseases using advanced machine learning models and spectrometry data. We employed LSTM, RNN, and BiLSTM networks combined with SVM, KNN, and XGBoost classifiers. The LSTM model achieved 99.96% precision, while BiLSTM with classifiers reached up to 99.9816% precision. Our models excelled in sensitivity (99.96%) and specificity (99.78%), significantly surpassing previous studies."
                             googleDriveLink="https://drive.google.com/file/d/1lOCyKHfuw1ffLmGR_-38QNtgoqzC8gYs/view?usp=drive_link"
                         />
                     </Col>
@@ -73,7 +81,7 @@ function Research() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             title="Anomaly Detection in Industrial Machines Using Echo State Networks"
-                            description=""
+                            description="This paper explores Echo State Networks (ESNs) for detecting anomalies in industrial machinery through time-series sensor data analysis. ESNs offer computational efficiency and effectiveness in modeling temporal dependencies, achieving high accuracy with lower computational overhead compared to traditional RNNs, making them ideal for real-time industrial applications."
                             googleDriveLink="https://docs.google.com/document/d/1Hl_Pn-rhUKT45wC0_RG7IbtWYWqZZQ8p/edit?usp=drive_link&ouid=116351027586430011941&rtpof=true&sd=true"
                         />
                     </Col>
@@ -81,7 +89,7 @@ function Research() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             title="Obesity Level Prediction Using Machine Learning"
-                            description="96.69% accuracy achieved."
+                            description="This research utilizes a stacking ensemble model combining Random Forest, Gradient Boosting, SVM, and Neural Networks to predict obesity levels. The model achieved 96.69% accuracy using diverse population datasets. Key features were identified through Recursive Feature Elimination, demonstrating the potential of data-driven techniques in personalized obesity management."
                             googleDriveLink="https://drive.google.com/file/d/1iZTdFtRRlPspZ4Zs2IeMnuaK4pEwugng/view?usp=drive_link"
                         />
                     </Col>
@@ -89,7 +97,7 @@ function Research() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             title="Automated Detection of Potholes and Speed Bumps Using Deep Learning"
-                            description="91.91% validation accuracy achieved."
+                            description="This study implements EfficientNetB0 for road surface monitoring, achieving 91.91% validation accuracy. The model was trained on 400 annotated images under diverse conditions, utilizing advanced data augmentation and regularization techniques. The research demonstrates the potential of deep learning in improving road safety and maintenance efficiency."
                             googleDriveLink="https://drive.google.com/file/d/1ME4uwQfUke4F6BPUvxJfyBvvPnBp7wV8/view?usp=drive_link"
                         />
                     </Col>
@@ -97,7 +105,7 @@ function Research() {
                     <Col md={4} className="project-card">
                         <ProjectCard
                             title="Predictive Analysis of Apple Stock Market Trends"
-                            description="96.5% accuracy achieved."
+                            description="This research analyzes Apple stock market trends using various ML models including Logistic Regression, XGBoost, Neural Networks, RNN, LSTM, and ARIMA. Analyzing data from 2014-2024, the study achieved 96.50% accuracy with LSTM and 90.91% with ARIMA, demonstrating ML's potential in stock price prediction."
                             googleDriveLink="https://drive.google.com/file/d/1G1qd0T1BkEx7Vu3qoSPsJaytSL9DPeU8/view?usp=drive_link"
                         />
                     </Col>
