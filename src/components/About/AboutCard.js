@@ -11,8 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mithil Mistry</span>, a third-year B.Tech student in Computer Science and Engineering at{" "}
             <span className="purple">Charotar University of Science and Technology (CHARUSAT)</span>, from{" "}
             <span className="purple">Ahmedabad, Gujarat, India</span>.
-            <br />
-            <br />
+          </p>
+
+          <p style={{ textAlign: "justify" }}>
             With a strong passion for machine learning, artificial intelligence, and emerging technologies,
             I have actively engaged in research, internships, and leadership roles that align with my interests.
             <br />
@@ -33,6 +34,15 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> A musician - earned distinction in nine Classical Music exams and proficient in multiple instruments
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Games
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Innovation new stuff
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
             </li>
           </ul>
 

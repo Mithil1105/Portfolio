@@ -57,7 +57,7 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <section>
+    <div>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -92,7 +92,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-    </section>
+    </div>
   );
 }
 

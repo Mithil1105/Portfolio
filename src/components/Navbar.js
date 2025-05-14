@@ -40,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h2 style={{ color: 'white', margin: 0 }}>M</h2>
+          <h2 style={{ color: 'white', margin: 0, fontSize: '1.5em' }}>Mithil Mistry</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
