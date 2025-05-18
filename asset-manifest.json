@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9d396408.css",
-    "main.js": "/Portfolio/static/js/main.e24de31d.js",
-    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/automating python certificate.pdf": "/Portfolio/static/media/automating python certificate.10fbb364044b2dd95641.pdf",
-    "static/media/Red hat OS certificate.pdf": "/Portfolio/static/media/Red hat OS certificate.7ca25974f27aa4ecc1ae.pdf",
-    "static/media/Intro to generative AI.pdf": "/Portfolio/static/media/Intro to generative AI.14c0b1e97843b3b92aea.pdf",
-    "static/media/AWS Certificate.pdf": "/Portfolio/static/media/AWS Certificate.f37071a8160a0db2eed3.pdf",
-    "static/media/teachnook.pdf": "/Portfolio/static/media/teachnook.a4a108fe340568b64ce7.pdf",
-    "static/media/draft 2.pdf": "/Portfolio/static/media/draft 2.39d1f728bde75824ffc5.pdf",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "index.html": "/Portfolio/index.html",
-    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
-    "main.9d396408.css.map": "/Portfolio/static/css/main.9d396408.css.map",
-    "main.e24de31d.js.map": "/Portfolio/static/js/main.e24de31d.js.map",
-    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.88c93ad3.css",
+    "main.js": "/static/js/main.1f53f61f.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/automating python certificate.pdf": "/static/media/automating python certificate.10fbb364044b2dd95641.pdf",
+    "static/media/Red hat OS certificate.pdf": "/static/media/Red hat OS certificate.7ca25974f27aa4ecc1ae.pdf",
+    "static/media/Intro to generative AI.pdf": "/static/media/Intro to generative AI.14c0b1e97843b3b92aea.pdf",
+    "static/media/AWS Certificate.pdf": "/static/media/AWS Certificate.f37071a8160a0db2eed3.pdf",
+    "static/media/teachnook.pdf": "/static/media/teachnook.a4a108fe340568b64ce7.pdf",
+    "static/media/draft 2.pdf": "/static/media/draft 2.39d1f728bde75824ffc5.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "index.html": "/index.html",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "main.88c93ad3.css.map": "/static/css/main.88c93ad3.css.map",
+    "main.1f53f61f.js.map": "/static/js/main.1f53f61f.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d396408.css",
-    "static/js/main.e24de31d.js"
+    "static/css/main.88c93ad3.css",
+    "static/js/main.1f53f61f.js"
   ]
 }
