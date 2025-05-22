@@ -59,12 +59,19 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
+  // List of projects that should have the "View Project" button
+  const projectsWithDemoLink = [
+    "Scorewise - GRE Essay Practice Tool",
+    "Depth and Dimension Company Website",
+    "DonateNow - Blood Donation App",
+    "The Wall - Twitter Clone"
+  ];
+
   return (
-    <Card className="project-card-view">
-      <Card.Body>
+    <Card className="project-card-view" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+      <Card.Body style={{ display: 'flex', flexDirection: 'column', flex: '1 0 auto' }}>
         <Card.Title
           style={{
             fontSize: "1.4em",
@@ -81,33 +88,29 @@ function ProjectCards(props) {
             textAlign: "justify",
             color: "#ffffff",
             fontSize: "1.05em",
-            marginBottom: "10px"
+            marginBottom: "10px",
+            flex: '1 0 auto'
           }}
         >
           {props.description}
         </Card.Text>
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '15px' }}>
-          {props.ghLink && (
-            <Button
-              variant="primary"
-              href={props.ghLink}
-              target="_blank"
-              style={{ marginRight: '10px' }}
-            >
-              <BsGithub /> &nbsp; GitHub
-            </Button>
-          )}
-
-          {props.demoLink && (
-            <Button
-              variant="primary"
-              href={props.demoLink}
-              target="_blank"
-            >
-              <CgWebsite /> &nbsp; View Project
-            </Button>
-          )}
-        </div>
+        {props.demoLink && projectsWithDemoLink.includes(props.title) && (
+          <Button
+            variant="primary"
+            href={props.demoLink}
+            target="_blank"
+            style={{
+              width: '100%',
+              marginTop: 'auto',
+              alignSelf: 'flex-end',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
+            }}
+          >
+            <CgWebsite style={{ marginRight: '5px' }} /> View Project
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );
