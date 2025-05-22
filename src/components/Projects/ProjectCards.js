@@ -58,6 +58,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { CgWebsite } from "react-icons/cg";
+import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -84,16 +86,28 @@ function ProjectCards(props) {
         >
           {props.description}
         </Card.Text>
-        {props.googleDriveLink && (
-          <Button
-            variant="primary"
-            href={props.googleDriveLink}
-            target="_blank"
-            style={{ marginTop: "10px" }}
-          >
-            View Paper
-          </Button>
-        )}
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '15px' }}>
+          {props.ghLink && (
+            <Button
+              variant="primary"
+              href={props.ghLink}
+              target="_blank"
+              style={{ marginRight: '10px' }}
+            >
+              <BsGithub /> &nbsp; GitHub
+            </Button>
+          )}
+
+          {props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+            >
+              <CgWebsite /> &nbsp; View Project
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
