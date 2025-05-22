@@ -48,6 +48,20 @@ function Projects() {
                 description="Created a 3D immersive game for a group project using C#, Unity Engine, and VS Code. Enhanced team collaboration and game development skills through effective project management and coding practices."
               />
             </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Wisk Wizard"
+                description="A web application that allows users to input available ingredients and generate curated dish recommendations. Leverages advanced recipe matching algorithms to provide creative and personalized cooking solutions, helping users maximize their pantry resources and reduce food waste."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="WiFi-Based Attendance Tracking Module"
+                description="A Smart India Hackathon (SIH) group project featuring an innovative attendance tracking system. Developed using Flutter and Firebase, the app provides automatic check-in/check-out using GPS coordinates and Wi-Fi BSSID validation. Offers fraud-prevention mechanisms and efficient administrative reporting for organizations and educational institutions."
+              />
+            </Col>
           </Row>
 
           {/* IoT and Hardware Projects */}
