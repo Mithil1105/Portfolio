@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a32f8474.css",
-    "main.js": "./static/js/main.d9d962c9.js",
+    "main.js": "./static/js/main.76218582.js",
     "static/js/415.4d6acbeb.chunk.js": "./static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/automating python certificate.pdf": "./static/media/automating python certificate.10fbb364044b2dd95641.pdf",
@@ -17,12 +17,12 @@
     "index.html": "./index.html",
     "static/media/pre.svg": "./static/media/pre.d4812f51c8c80976eaab.svg",
     "main.a32f8474.css.map": "./static/css/main.a32f8474.css.map",
-    "main.d9d962c9.js.map": "./static/js/main.d9d962c9.js.map",
+    "main.76218582.js.map": "./static/js/main.76218582.js.map",
     "415.4d6acbeb.chunk.js.map": "./static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a32f8474.css",
-    "static/js/main.d9d962c9.js"
+    "static/js/main.76218582.js"
   ]
 }
