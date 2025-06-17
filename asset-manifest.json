@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a32f8474.css",
-    "main.js": "./static/js/main.76218582.js",
+    "main.js": "./static/js/main.b65419fc.js",
     "static/js/415.4d6acbeb.chunk.js": "./static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/automating python certificate.pdf": "./static/media/automating python certificate.10fbb364044b2dd95641.pdf",
@@ -9,7 +9,7 @@
     "static/media/Intro to generative AI.pdf": "./static/media/Intro to generative AI.14c0b1e97843b3b92aea.pdf",
     "static/media/AWS Certificate.pdf": "./static/media/AWS Certificate.f37071a8160a0db2eed3.pdf",
     "static/media/teachnook.pdf": "./static/media/teachnook.a4a108fe340568b64ce7.pdf",
-    "static/media/draft 2.pdf": "./static/media/draft 2.80d1714bf8283be7c042.pdf",
+    "static/media/draft 2.pdf": "./static/media/draft 2.e3a929b570e24a24336a.pdf",
     "static/media/home-main.svg": "./static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "./static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "./static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -17,12 +17,12 @@
     "index.html": "./index.html",
     "static/media/pre.svg": "./static/media/pre.d4812f51c8c80976eaab.svg",
     "main.a32f8474.css.map": "./static/css/main.a32f8474.css.map",
-    "main.76218582.js.map": "./static/js/main.76218582.js.map",
+    "main.b65419fc.js.map": "./static/js/main.b65419fc.js.map",
     "415.4d6acbeb.chunk.js.map": "./static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a32f8474.css",
-    "static/js/main.76218582.js"
+    "static/js/main.b65419fc.js"
   ]
 }
