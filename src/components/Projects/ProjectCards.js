@@ -59,6 +59,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
+import { AiOutlineFileText } from "react-icons/ai";
 
 function ProjectCards(props) {
   // List of projects that should have the "View Project" button
@@ -94,23 +95,38 @@ function ProjectCards(props) {
         >
           {props.description}
         </Card.Text>
-        {props.demoLink && projectsWithDemoLink.includes(props.title) && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{
-              width: '100%',
-              marginTop: 'auto',
-              alignSelf: 'flex-end',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center'
-            }}
-          >
-            <CgWebsite style={{ marginRight: '5px' }} /> View Project
-          </Button>
-        )}
+        <div style={{ marginTop: 'auto', display: 'flex', gap: '10px' }}>
+          {props.demoLink && projectsWithDemoLink.includes(props.title) && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{
+                flex: '1',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+            >
+              <CgWebsite style={{ marginRight: '5px' }} /> View Project
+            </Button>
+          )}
+          {props.googleDriveLink && (
+            <Button
+              variant="primary"
+              href={props.googleDriveLink}
+              target="_blank"
+              style={{
+                flex: '1',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+            >
+              <AiOutlineFileText style={{ marginRight: '5px' }} /> View Paper
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
