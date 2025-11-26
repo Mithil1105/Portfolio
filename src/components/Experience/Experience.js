@@ -23,6 +23,19 @@ function Experience() {
                     <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
                         <Col md={6} className="project-card">
                             <ExperienceCard
+                                company="Physical Research Laboratory (PRL)"
+                                title="Software Developer Intern"
+                                duration="September 1, 2025 – December 24, 2025"
+                                location="Ahmedabad, India"
+                                description={[
+                                    "Worked under the Applied Computing group at PRL, contributing to the development of an internal web platform for research data visualization and workflow automation",
+                                    "Implemented modular UI components, optimized backend queries, and assisted in deploying a research dashboard for experimental data insights"
+                                ]}
+                            />
+                        </Col>
+
+                        <Col md={6} className="project-card">
+                            <ExperienceCard
                                 company="Hidden Brains"
                                 title="Application Development Intern"
                                 duration="May 2024 - June 2024"
