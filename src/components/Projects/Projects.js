@@ -23,45 +23,59 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Bill Blister Website"
-                description="A full-stack billing and inventory management system designed for local retailers and distributors. It allows users to generate GST-ready bills, manage customer data, track stock entries, and monitor profit margins — all through a responsive dashboard. Built with clean UI components and optimized database calls for faster operations."
+                title="Amit Fibre Decor (AFD) — Company Website"
+                description="A professional business website for a company specializing in large-scale fibre, FRP, and sculptural installations. The website showcases craftsmanship, projects, and services to government bodies, exhibition planners, and private clients. Features include company profile, service overview, project showcase with visual emphasis, and clean professional UI suitable for enterprise clients."
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Amit Fibre Decor (AFD) Website"
-                description="A premium portfolio website developed for Amit Fibre Decor, a sculpture and design company specializing in artistic installations and décor. The site showcases various projects with dynamic galleries, an interactive map for workshop locations, and smooth animations to emphasize their brand identity. Developed with focus on visual storytelling and user immersion."
+                title="Pesowise — Bill & Petty Cash Management"
+                description="A reimbursement and petty-cash management platform that digitizes employee expense submission, admin approval, and finance-ready exports. Features include expense submission with bill upload (image/PDF), admin review workflow, voucher timeline tracking, exportable CSV logs for accounting, and role-based access with clean dashboard UI."
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Vibrant Gujarat Regional Meet 2025"
-                description="A kiosk-based Android application developed for the Gujarat Forest Department's Vibrant Gujarat Regional Meet 2025. The app enables participants to take a digital oath for environmental conservation. It captures a user's photo and name, automatically embeds them on a personalized certificate, and stores the generated image for records. Designed for offline use and optimized for tablet kiosks."
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCard
-                title="Scorewise - GRE Essay Practice Tool"
-                description="A full-stack web application designed to help GRE aspirants practice Analytical Writing Assessment (AWA) essays. Features include randomized topics, real-time timer, essay evaluation, and typing speed tracking."
+                title="ScoreWise — Essay Evaluation & Student Learning Platform"
+                description="A student and institution platform focused on writing improvement through practice, evaluation, and structured feedback. Features include student signup with email verification, institution code-based joining with teacher approval, essay submission portal, teacher dashboard for reviewing and scoring, and typing practice workflows. Includes multi-tenant access control and role-based authentication."
                 demoLink="https://scorewise.mithilmistry.tech/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Depth and Dimension Company Website"
-                description="A collaborative project where my partner and I created a professional company website for Depth and Dimension, showcasing their services, portfolio, and brand identity."
+                title="ServiceWise — Patidar Travels Car Fleet Management System"
+                description="A fleet operations app for a travel agency to manage vehicles, drivers, trips, and service schedules. Features include vehicle catalog with availability and usage history, driver assignment and trip scheduling, trip logs with pickup/drop details, maintenance reminders, and admin dashboard for fleet overview and operational tracking."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Inventory Management System — Household + Workshop + SaaS Ready"
+                description="A barcode-driven inventory system for personal household use and workshop storage, designed to scale into a multi-organization SaaS. Features include product management with images and categories, check-in/check-out workflow with logs, barcode scanning and generation, location mapping (shelf/box/room/bin), and multi-tenant SaaS with organization-wise segregation. Clean UI designed for fast daily use."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Vibrant Gujarat Regional Meet 2025 — Mehsana (OathKiosk)"
+                description="A public-facing kiosk/web app for the Forest Department that collects user pledges and generates instant digital certificates. Features include 10-question pledge flow, certificate generation, multi-language support (Gujarati/English), and exhibition-ready interface optimized for kiosk screens. Designed for rapid usage with minimal friction, handling high concurrent participation during events."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Depth & Dimension — Design & Installation Studio Website"
+                description="A portfolio website for a creative design studio focused on art installations, spatial design, sculptures, and immersive environments. The site highlights visual storytelling and craftsmanship, showcasing how artistic depth translates into real-world installations. Features include gallery-driven layout, project-based storytelling, minimal expressive UI, and brand-aligned presentation for exhibitions."
                 demoLink="https://mithil1105.github.io/Depth/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="DonateNow - Blood Donation App"
-                description="Built a full-stack blood donation app using MongoDB, React.js, and Node.js. Implemented JWT authentication and integrated SMS functionality for donor engagement. Features include user authentication, admin functionality, and multi-user roles."
+                title="DonateNow — Blood Donation App"
+                description="A mobile application that connects blood donors with recipients and hospitals, streamlining blood availability during emergencies. DonateNow centralizes donor information and accessibility. Features include user registration as donor or requester, blood group and location-based matching, donor availability status, fast-access UI for emergency usage, and contact flow between donor and recipient. Built with emergency-driven UX and mobile-first architecture."
                 demoLink="https://github.com/Mithil1105/BloodDonation"
               />
             </Col>
@@ -139,6 +153,20 @@ function Projects() {
                 demoLink="https://github.com/Mithil1105/PCB-Projects"
               />
             </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Nal-Sarovar Interpretation Center Restoration"
+                description="Led the restoration and upgrade of interactive panels and technical systems at the Nal-Sarovar Interpretation Center, a key visitor facility at the Nal Sarovar Bird Sanctuary. The project involved comprehensive repair of broken interactive displays, restoration of damaged hardware components, and reconfiguration of systems for reliable operation. Worked on troubleshooting malfunctioning panels, replacing defective components, and ensuring seamless integration with educational exhibits."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Footfall Detection Module — Event & Exhibition Analytics System"
+                description="A low-cost, camera-based footfall measurement system for exhibitions and public stalls to estimate visitor count and movement patterns in real time. Developed for government and public exhibition environments where manual counting is impractical. Features include camera-based people detection, works with mixed entry-exit gates, continuous visitor count logging, minimal hardware footprint for quick setup, and scalable logic for multiple entry points. Uses vision-based detection with frame-wise human presence detection and logic to avoid double-counting."
+              />
+            </Col>
           </Row>
 
           {/* Ongoing Projects */}
@@ -155,15 +183,29 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Gym Trainer Website"
-                description="A platform built for personal fitness trainers to manage their clients. The website allows trainers to upload tutorial videos, assign personalized workout plans, and track user progress. It features a clean, motivating interface with a member dashboard for accessing daily routines and progress analytics."
+                title="Gym Trainer Website — Personal Training & Fitness Platform"
+                description="A personal website for gym trainers and fitness coaches to showcase training programs, achievements, and client engagement. Helps trainers establish a professional digital presence and attract clients. Features include trainer profile with certifications, workout plans and training programs, client testimonials and transformation highlights, contact section, and clean energetic UI aligned with fitness branding."
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                title="Wardrobe Outfit Recommender"
-                description="An AI-powered fashion assistant that helps users organize their wardrobe and receive outfit recommendations based on the occasion, weather, and color harmony. Users can upload images of their clothes, which are classified using a custom-trained CNN model into categories like Traditional, Western, Casual, and Formal. The recommender suggests optimal combinations and generates outfit ideas using AI similarity scoring."
+                title="WardrobeWise — AI Wardrobe Organizer & Outfit Recommendation"
+                description="A wardrobe digitization and outfit recommendation system that organizes user clothing photos and helps create combinations. Features include wardrobe item upload and categorization (Traditional/Formal/Western/Casual), outfit recommendation by occasion, and closet organization UX. Technical focus on handling inconsistent angles and multi-layer clothing, with pipeline for segmentation and attribute classification. Future scope includes silhouette matching and try-on visualization."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="AR Menu Visualization — 3D Menu Experience for Cafes/Exhibitions"
+                description="An AR/3D menu concept where users can view food items in interactive 3D before ordering. Features include 3D model viewer for menu items (GLB/3D assets), web-based experience via QR scan, and lightweight optimized assets for mobile browsers. Technical focus on hosting 3D assets with fast delivery and mobile performance optimization. Future scope includes AR placement, nutrition overlays, and upsell combos."
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                title="Web2Resume (Resume2Web) — Resume to Portfolio Website Generator"
+                description="A web tool that converts a resume into a structured portfolio website with projects, skills, and sections ready for deployment. Features include resume parsing with auto-generated portfolio sections, project cards, skills grid, education, achievements, and deploy-ready structure with modern UI. Customization-ready for themes and layout edits. Fast portfolio creation with clean, professional presentation."
               />
             </Col>
           </Row>

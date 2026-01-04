@@ -19,43 +19,6 @@ function Research() {
                         All research papers are SCOPUS-indexed in Springer format and will be indexed soon. Below is a list of my contributions:
                     </p>
 
-                    {/* Ongoing Papers Section */}
-                    <h2 className="project-heading" style={{ color: "#c084f5", fontSize: "1.8em" }}>
-                        Ongoing Papers
-                    </h2>
-                    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                        <Col md={4} className="project-card">
-                            <ProjectCard
-                                title="Signature fraud detection using cnn"
-                                description={
-                                    <div style={{ textAlign: 'center' }}>
-                                        Status: In Progress
-                                    </div>
-                                }
-                            />
-                        </Col>
-                        <Col md={4} className="project-card">
-                            <ProjectCard
-                                title="Career path prediction using ml"
-                                description={
-                                    <div style={{ textAlign: 'center' }}>
-                                        Status: In Progress
-                                    </div>
-                                }
-                            />
-                        </Col>
-                        <Col md={4} className="project-card">
-                            <ProjectCard
-                                title="Landslide detection"
-                                description={
-                                    <div style={{ textAlign: 'center' }}>
-                                        Status: In Progress
-                                    </div>
-                                }
-                            />
-                        </Col>
-                    </Row>
-
                     {/* Journal Papers Section */}
                     <h2 className="project-heading" style={{ color: "#c084f5", fontSize: "1.8em" }}>
                         Journal Papers
@@ -218,6 +181,48 @@ function Research() {
                                     </div>
                                 }
                                 googleDriveLink="https://drive.google.com/file/d/1G1qd0T1BkEx7Vu3qoSPsJaytSL9DPeU8/view?usp=drive_link"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCard
+                                title="Signature fraud detection using cnn"
+                                description={
+                                    <div style={{ textAlign: 'center' }}>
+                                        <div style={{
+                                            fontSize: "0.85em",
+                                            color: "#c084f5",
+                                            marginBottom: "8px",
+                                            fontStyle: "italic"
+                                        }}>
+                                            Status: In Progress
+                                        </div>
+                                        <div>
+                                            [Description placeholder - to be updated]
+                                        </div>
+                                    </div>
+                                }
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCard
+                                title="Career path prediction using ml"
+                                description={
+                                    <div style={{ textAlign: 'center' }}>
+                                        <div style={{
+                                            fontSize: "0.85em",
+                                            color: "#c084f5",
+                                            marginBottom: "8px",
+                                            fontStyle: "italic"
+                                        }}>
+                                            Status: In Progress
+                                        </div>
+                                        <div>
+                                            [Description placeholder - to be updated]
+                                        </div>
+                                    </div>
+                                }
                             />
                         </Col>
                     </Row>

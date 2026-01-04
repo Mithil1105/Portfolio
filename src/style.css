@@ -482,13 +482,28 @@ button:focus {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  height: auto !important;
+  min-height: 100% !important;
+  overflow: visible !important;
 }
 
 .project-card-view:hover {
   transform: scale(1.02) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.project-card-view .card-body {
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
+
+.project-card-view .card-text {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .blog-card {

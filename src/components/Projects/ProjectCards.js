@@ -90,7 +90,12 @@ function ProjectCards(props) {
             color: "#ffffff",
             fontSize: "1.05em",
             marginBottom: "10px",
-            flex: '1 0 auto'
+            flex: '1 0 auto',
+            overflow: 'visible',
+            textOverflow: 'clip',
+            whiteSpace: 'normal',
+            wordWrap: 'break-word',
+            overflowWrap: 'break-word'
           }}
         >
           {props.description}

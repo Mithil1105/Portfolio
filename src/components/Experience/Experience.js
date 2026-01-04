@@ -28,8 +28,9 @@ function Experience() {
                                 duration="September 1, 2025 – December 24, 2025"
                                 location="Ahmedabad, India"
                                 description={[
-                                    "Worked under the Applied Computing group at PRL, contributing to the development of an internal web platform for research data visualization and workflow automation",
-                                    "Implemented modular UI components, optimized backend queries, and assisted in deploying a research dashboard for experimental data insights"
+                                    "Worked under the Space and Atmosphere department of PRL, contributing to the development of an internal web platform for research data collection, storage and visualisation",
+                                    "Implemented modular UI components, optimized backend queries, and assisted in deploying a research dashboard for experimental data insights",
+                                    "Designed and developed a ML model for prediction of data during anomalies of the weather systems"
                                 ]}
                             />
                         </Col>
@@ -72,7 +73,7 @@ function Experience() {
                             <ExperienceCard
                                 company="Arthyantra (CHARUSAT Economic Club)"
                                 title="Founder and Joint President"
-                                duration="2022 - Present"
+                                duration="2024 - 2025"
                                 description={[
                                     "Led CHARUSAT's Economics Club, organizing financial literacy events",
                                     "Managed club operations and strategic planning",
@@ -84,9 +85,22 @@ function Experience() {
 
                         <Col md={6} className="project-card">
                             <ExperienceCard
+                                company="Arthyantra (CHARUSAT Economic Club)"
+                                title="Advisor"
+                                duration="2025 - Present"
+                                description={[
+                                    "Providing strategic guidance and mentorship to the club leadership",
+                                    "Supporting club initiatives and maintaining continuity of vision",
+                                    "Advising on program development and member engagement strategies"
+                                ]}
+                            />
+                        </Col>
+
+                        <Col md={6} className="project-card">
+                            <ExperienceCard
                                 company="The Rotaract Club of CHARUSAT"
                                 title="Treasurer"
-                                duration="2022 - Present"
+                                duration="2024 - 2025"
                                 description={[
                                     "Managed budgeting and coordinated community service initiatives",
                                     "Organized and executed community outreach programs",
